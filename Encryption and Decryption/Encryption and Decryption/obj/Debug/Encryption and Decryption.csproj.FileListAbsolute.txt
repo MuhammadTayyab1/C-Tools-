@@ -1,0 +1,13 @@
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Encryption and Decryption.csprojResolveAssemblyReference.cache
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Encryption_and_Decryption.Form1.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Encryption and Decryption.csproj.GenerateResource.Cache
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\bin\Debug\Secure conversation.exe.config
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\bin\Debug\Secure conversation.exe
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\bin\Debug\Secure conversation.pdb
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Secure_conversation.Properties.Resources.resources
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Secure conversation.exe
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Secure conversation.pdb
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\bin\Debug\Secure conversation.exe.manifest
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\bin\Debug\Secure conversation.application
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Secure conversation.exe.manifest
+c:\users\tayyab\documents\visual studio 2013\Projects\Encryption and Decryption\Encryption and Decryption\obj\Debug\Secure conversation.application

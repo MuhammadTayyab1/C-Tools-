@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Secure conversation.exe" version="1.0.0.0" publicKeyToken="e7008364beac2072" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Simiographics-Secure-Key.ico" asmv2:publisher="CMT Softwares Solution" asmv2:product="Secure conversation" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Secure conversation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Secure conversation.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.3.0" publicKeyToken="0E99375E54769942" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Google.Protobuf" version="3.6.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="8.0.16.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Secure conversation.exe" size="471040">
+      <assemblyIdentity name="Secure conversation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rRAggwtrcMxG6Vz+M9vqVn+YEqgx6C230qS0cpkdllc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Flameia-Machemicals-Locked.ico" size="90126">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2TnfvQnUZukje8bF3PMltvg4Bx4S0Q3oUMQmepImPQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Secure conversation.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GUHS+OFx1101tsQAmSxc2HiZ6DFfxLEUn0Es0Znho/o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Simiographics-Secure-Key.ico" size="187966">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WDVCL8GbUP5eFpJ4zjrFAdPm+0aDQzW1+nqw+XVzexc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TAYYAB\Tayyab" issuerKeyHash="41b8a35cd1fafdc9fa6f7fd58e87f009322b9ee0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UZYwEHkcDrz4iiraNR7n+qVTl69r+ne7qgUIlXnfBkY=</DigestValue></Reference></SignedInfo><SignatureValue>sDTtoeSmxWmKBkU3MOTgJpr5N9doH4aLJ9vCDbCfH/nglwct/X96jHGizpx+q/FDupjiUOrgJ5yFIpqvw5vy59xfsY1GbtEXenZwYQLVFwtKs6kVjBo1/nT5SAXjeghVu/4a97hvBK1G2OCgRGelhhtcwgr66PfpVPRhYA6xXw8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tUCWHVODNqE8hAN3JWn+XqqIXy38ho5b5B01P/Zz+P4j2dcgE6TwL/Y3yB8QWP646WNXtyS+Murh7nh3RokYj7tuG7HHPvD/h/KHINh5NXrUpe9G9Vp0vHEpA2TvqZl+XDKtRcCtx5qsUD4XmanLQYWA+iptaVRvKVv0wSn/Tr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4606df79950805aabb77fa6baf9753a5fae71e35da2a8af8bc0e1c7910309651" Description="" Url=""><as:assemblyIdentity name="Secure conversation.exe" version="1.0.0.0" publicKeyToken="e7008364beac2072" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TAYYAB\Tayyab</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eUWxOMPSqpWfBSGbJvz0puM7l2AEP1VtUKXQV3br1Mo=</DigestValue></Reference></SignedInfo><SignatureValue>lPG0PmLrwWl7xMQx/IjwqlNSTnfC+ii2/gpXbcKRIjmV8RAvKezJGYX1Nmw5rbmJmV5KrzqbdN7/KweBBxnA3pUwsODRgjP3taw0rBwp/Skjnxl2wJ0fmQqERUsl6lvVa2SXEdYStDVPqpwJkkIihyh+dgq5n/4AKlyWhLSLSN8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tUCWHVODNqE8hAN3JWn+XqqIXy38ho5b5B01P/Zz+P4j2dcgE6TwL/Y3yB8QWP646WNXtyS+Murh7nh3RokYj7tuG7HHPvD/h/KHINh5NXrUpe9G9Vp0vHEpA2TvqZl+XDKtRcCtx5qsUD4XmanLQYWA+iptaVRvKVv0wSn/Tr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQTxKwlx/uPpJMBkj9Saos+TANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAVABBAFkAWQBBAEIAXABUAGEAeQB5AGEAYjAeFw0xOTA4MTAxOTEwMDZaFw0yMDA4MTAwMTEwMDZaMCUxIzAhBgNVBAMeGgBUAEEAWQBZAEEAQgBcAFQAYQB5AHkAYQBiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1QJYdU4M2oTyEA3claf5eqohfLfyGjlvkHTU/9nP4/iPZ1yATpPAv9jfIHxBY/rjpY1e3JL4y6uHueHdGiRiPu24bscc+8P+H8ocg2Hk1etSl70b1WnS8cSkDZO+pmX5cMq1FwK3HmqxQPheZqctBhYD6Km1pVG8pW/TBKf9OvQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAjoqQeNQNzIdsrGI3ETPai7z7RbD10TaeY7ofFvfrqMmFEAz1LYYi034lMH0Iy/lWg8qAmq/cDSGUbcabm8zTvlQQ5RqAAd1jDGluf172m4g2vWtKVKdpM3OvSg0Vu4d5W4jCk2iH/DQfvQJG5h3icN2oT91HeV9HYezYM5Gbu9</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
