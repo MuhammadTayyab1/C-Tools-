@@ -18,6 +18,7 @@ namespace Encryption_and_Decryption
         {
             InitializeComponent();
         }
+        
         MySqlConnection con;
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
